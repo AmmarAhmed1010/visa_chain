@@ -7,6 +7,7 @@ import Demo from './pages/Demo';
 import Benefits from './pages/Benefits';
 import TechSpecs from './pages/TechSpecs';
 import CompetitiveAnalysis from './pages/CompetitiveAnalysis';
+import ScamAwareness from './pages/ScamAwareness';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/benefits" element={<Benefits />} />
           <Route path="/tech-specs" element={<TechSpecs />} />
           <Route path="/competitive-analysis" element={<CompetitiveAnalysis />} />
+          <Route path="/scam-awareness" element={<ScamAwareness />} />
         </Routes>
       </div>
     </Router>
